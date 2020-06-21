@@ -34,8 +34,10 @@ use ChurchCRM\dto\SystemURLs;
       ?>
     <a href="<?= SystemURLs::getRootPath()."/MapUsingGoogle.php?GroupID=0"?>" class="btn btn-app"><i
         class="fa fa-map-marker"></i><?= gettext('Map Cart') ?></a>
-    <a href="<?= SystemURLs::getRootPath()."/Reports/NameTags.php?labeltype=74536&labelfont=times&labelfontsize=36"?>" class="btn btn-app"><i
-        class="fa fa-file-pdf-o"></i><?= gettext('Name Tags') ?></a>
+    <a href="<?= SystemURLs::getRootPath()."/Reports/AddressLabels.php?labeltype=H4456&labelfont=helvetica&labelfontsize=10&groupbyfamily=true"?>" class="btn btn-app"><i
+        class="fa fa-file-pdf-o"></i><?= gettext('FamilyLabels') ?></a>
+    <a href="<?= SystemURLs::getRootPath()."/Reports/AddressLabels.php?labeltype=H4456&labelfont=helvetica&labelfontsize=10"?>" class="btn btn-app"><i
+        class="fa fa-file-pdf-o"></i><?= gettext('BdayLabels') ?></a>
       <?php
      
           if (AuthenticationManager::GetCurrentUser()->isEmailEnabled()) { // Does user have permission to email groups

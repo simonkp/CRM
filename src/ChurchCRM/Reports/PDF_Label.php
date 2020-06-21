@@ -71,7 +71,8 @@ class PDF_Label extends ChurchInfoReport
         '5164'   => ['name'=>'5164', 'paper-size'=>'letter', 'metric'=>'in', 'marginLeft'=>0.148, 'marginTop'=>0.5, 'NX'=>2, 'NY'=>3, 'SpaceX'=>0.2031, 'SpaceY'=>0, 'width'=>4.0, 'height'=>3.33, 'font-size'=>12],
         '8600'   => ['name'=>'8600', 'paper-size'=>'letter', 'metric'=>'mm', 'marginLeft'=>7.1, 'marginTop'=>19, 'NX'=>3, 'NY'=>10, 'SpaceX'=>9.5, 'SpaceY'=>3.1, 'width'=>66.6, 'height'=>25.4, 'font-size'=>8],
         '74536'  => ['name'=>'74536(name tags)', 'paper-size'=>'letter', 'metric'=>'mm', 'marginLeft'=>7.0, 'marginTop'=>25, 'NX'=>2, 'NY'=>3, 'SpaceX'=>0, 'SpaceY'=>0, 'width'=>102, 'height'=>76, 'font-size'=>18],
-        'L7163'  => ['name'=>'L7163', 'paper-size'=>'A4', 'metric'=>'mm', 'marginLeft'=>5, 'marginTop'=>15, 'NX'=>2, 'NY'=>7, 'SpaceX'=>2.5, 'SpaceY'=>0, 'width'=>99.1, 'height'=>38.1, 'font-size'=>10],
+	'L7163'  => ['name'=>'L7163', 'paper-size'=>'A4', 'metric'=>'mm', 'marginLeft'=>5, 'marginTop'=>15, 'NX'=>2, 'NY'=>7, 'SpaceX'=>2.5, 'SpaceY'=>0, 'width'=>99.1, 'height'=>38.1, 'font-size'=>10],
+	'H4456'  => ['name'=>'H4456', 'paper-size'=>'A4', 'metric'=>'mm', 'marginLeft'=>0, 'marginTop'=>0, 'NX'=>3, 'NY'=>10, 'SpaceX'=>0, 'SpaceY'=>0, 'width'=>70, 'height'=>29.7, 'font-size'=>10],
     ];
 
     // convert units (in to mm, mm to in)

@@ -22,7 +22,7 @@ $families = FamilyQuery::create()
     ->filterByLongitude(array(null,0), Criteria::IN)
     ->_or()
     ->filterByLatitude(array(null,0), Criteria::IN)
-    ->limit(250)
+    ->limit(25)
     ->find();
 
 echo '<h4>' . gettext('Families without Geo Info') . ": " . $families->count() .'</h4>';
